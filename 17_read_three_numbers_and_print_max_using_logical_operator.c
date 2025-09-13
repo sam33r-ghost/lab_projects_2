@@ -1,4 +1,5 @@
 /* Program to read three numbers and print the biggest number 
+   using logical operator &&
    Author : Sameer Yadav 
 */
 #include<stdio.h>
@@ -10,27 +11,15 @@ int main(){
     scanf("%d",&second);
     printf("enter third number : ");
     scanf("%d",&third);
-    if((first>=second))
-{ 
-    if(first>=third)
+    if((first>=second)&&(first>=third))
     {
     printf("the biggest number is : %d",first);
-    } 
+    }
     else if((second>=third)){
-    printf("the biggest number is : %d",second);
-    }
-    else
-    {
-    printf("the biggest number is : %d",third);
-    }
-}
-    else if((second>=third))
-    {
         printf("the biggest number is : %d",second);
     }
-    else
-    {
+    else{
         printf("the biggest number is : %d",third);
-    } 
-return 0;
+    }
+    return 0;
 }

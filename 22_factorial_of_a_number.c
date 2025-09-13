@@ -1,3 +1,6 @@
+/* Program to find factorial of a number
+   Author : Sameer Yadav 
+*/
 #include<stdio.h>
 int main(){
     int num,product,loop;
