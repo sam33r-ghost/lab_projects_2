@@ -2,6 +2,7 @@
    Author : Sameer Yadav 
 */
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     int num,product,loop;
     printf("enter number to find factorial : ");
@@ -12,5 +13,6 @@ int main(){
         product = product*loop; 
     }
     printf("factorial of number is %d",product);
+    system("pause");
     return 0;
 }

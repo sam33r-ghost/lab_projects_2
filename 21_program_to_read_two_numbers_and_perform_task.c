@@ -2,12 +2,14 @@
    Author : Sameer Yadav 
 */
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
-    int num1,num2,result;
+    
+    float result, num1,num2;
     char operator;
     printf("Enter number 1 : ");
     scanf("%d",&num1);
-    printf("Enter operator(r for remainder) : ");
+    printf("Enter operator : ");
     scanf(" %c",&operator);
     printf("Enter number 2 : ");
     scanf("%d",&num2);
@@ -15,26 +17,27 @@ int main(){
     {
     case('*'): 
     result = num1*num2;
-    printf("the result is : %d",result);
+    printf("the result is : %.2f\n",result);
+    system("pause");
     break;
     case('+'):
     result = num1+num2;
-    printf("the result is : %d",result);
+    printf("the result is : %.2f\n",result);
+    system("pause");
     break;
     case('-'):
     result = num1-num2;
-    printf("the result is : %d",result);
+    printf("the result is : %.2f\n",result);
+    system("pause");
     break;
     case('/'):
-    result = num1/num2;
-    printf("the result is : %d",result);
-    break;
-    case('r'):
-    result = num1%num2;
-    printf("the remainder is : %d",result);
+    result = (num1/num2);
+    printf("the result is : %.2f\n",result);
+    system("pause");
     break;
     default:
-    printf("the entered operator is not valid for this calculator");
+    printf("the entered operator is not valid for this calculator\n");
+    system("pause");
     }
     return 0;
 }

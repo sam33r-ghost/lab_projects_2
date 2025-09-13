@@ -3,6 +3,7 @@
    Author : Sameer Yadav 
 */
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     int first,second,third,max;
     printf("enter first number : ");
@@ -12,7 +13,8 @@ int main(){
     printf("enter third number : ");
     scanf("%d",&third);
     max = (first>=second)?((first>=third)?first:third):((second>=third)?second:third);
-    printf("the biggest number is : %d",max);
+    printf("the biggest number is : %d\n",max);
+    system("pause");
     return 0;
 }
 

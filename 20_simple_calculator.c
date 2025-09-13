@@ -3,6 +3,7 @@
    Author : Sameer Yadav 
 */
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     float num1,num2,result;
     char operator;
@@ -16,22 +17,27 @@ int main(){
     {
     case('*'): 
     result = num1*num2;
-    printf("the result is : %.2f",result);
+    printf("the result is : %.2f\n",result);
+    system("pause");
     break;
     case('+'):
     result = num1+num2;
-    printf("the result is : %.2f",result);
+    printf("the result is : %.2f\n",result);
+    system("pause");
     break;
     case('-'):
     result = num1-num2;
-    printf("the result is : %.2f",result);
+    printf("the result is : %.2f\n",result);
+    system("pause");
     break;
     case('/'):
     result = num1/num2;
-    printf("the result is : %.2f",result);
+    printf("the result is : %.2f\n",result);
+    system("pause");
     break;
     default:
-    printf("the entered operator is not valid for this calculator");
+    printf("the entered operator is not valid for this calculator\n");
+    system("pause");
     }
     return 0;
 }

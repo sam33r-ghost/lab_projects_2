@@ -2,6 +2,7 @@
    Author : Sameer Yadav 
 */
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     int first,second,third;
     printf("enter first number : ");
@@ -14,23 +15,28 @@ int main(){
 { 
     if(first>=third)
     {
-    printf("the biggest number is : %d",first);
+    printf("the biggest number is : %d\n",first);
+    system("pause");    
     } 
     else if((second>=third)){
-    printf("the biggest number is : %d",second);
+    printf("the biggest number is : %d\n",second);
+    system("pause");
     }
     else
     {
-    printf("the biggest number is : %d",third);
+    printf("the biggest number is : %d\n",third);
+    system("pause");
     }
 }
     else if((second>=third))
     {
-        printf("the biggest number is : %d",second);
+        printf("the biggest number is : %d\n",second);
+        system("pause");
     }
     else
     {
-        printf("the biggest number is : %d",third);
+        printf("the biggest number is : %d\n",third);
+        system("pause");
     } 
 return 0;
 }

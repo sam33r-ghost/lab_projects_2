@@ -2,6 +2,7 @@
    Author : Sameer Yadav 
 */
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     int num,loop,power,numcopy;
     printf("enter number : ");
@@ -11,6 +12,7 @@ int main(){
     if(power==0)
     {
     printf("result : 1");    
+    system("pause");
     }
     else
     {
@@ -22,6 +24,7 @@ int main(){
         num = num*numcopy;
     }
     printf("result : %d",num);
+    system("pause");
     }
     return 0;
 }
