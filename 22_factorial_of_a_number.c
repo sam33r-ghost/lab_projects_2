@@ -12,7 +12,7 @@ int main(){
     {
         product = product*loop; 
     }
-    printf("factorial of number is %d",product);
+    printf("factorial of number is %d\n",product);
     system("pause");
     return 0;
 }

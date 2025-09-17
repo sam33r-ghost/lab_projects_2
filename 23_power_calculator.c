@@ -23,7 +23,7 @@ int main(){
     {
         num = num*numcopy;
     }
-    printf("result : %d",num);
+    printf("result : %d\n",num);
     system("pause");
     }
     return 0;

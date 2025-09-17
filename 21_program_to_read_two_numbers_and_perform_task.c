@@ -8,11 +8,11 @@ int main(){
     float result, num1,num2;
     char operator;
     printf("Enter number 1 : ");
-    scanf("%d",&num1);
+    scanf("%f",&num1);
     printf("Enter operator : ");
     scanf(" %c",&operator);
     printf("Enter number 2 : ");
-    scanf("%d",&num2);
+    scanf("%f",&num2);
     switch(operator)
     {
     case('*'): 
